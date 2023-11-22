@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="icon" type="image/x-icon" href="images/house.png">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        <!--
+        let links = []; // don't use new Array() anymore
+        links[0] = "index.html";
+        links[1] = "pets.html";
+        links[2] = "travel.html";
+        links[3] = "recipes.html";
+        
+        function openLink() {
+          // Chooses a random link:
+          var i = Math.floor(Math.random() * links.length);
+          // Directs the browser to the chosen target:
+          parent.location = links[i];
+          return false;
+        }
+        //-->
+        </script>
+
+</head>
+<body>
+
+    <a class = "skip" href = "">Skip to Main Content</a>
+    
+    <main> 
+            <nav>
+                <div>
+                    <a class = "current_nav" href="index.html">Home</a>
+                </div>
+                <div>
+                    <a href="pets.html">Pets</a>
+                </div>
+                <div>
+                    <a href="recipes.html">Recipes</a>
+                </div>
+                <div>
+                    <a href="travel.html">Travel</a>
+                </div>
+                
+            </nav>
+    </main>  
+    
+    
+    <div>
+        <h2>Home </h2>
+        <div>
+            <button onclick="openLink()">Suprise Me</button>
+        </div>
+    </div>
+</body>
+</html>
